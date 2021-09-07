@@ -45,7 +45,8 @@ Selenium Documentation: https://www.selenium.dev/documentation/
 5. Start your Android Virtual Device (simulator) or connect your real device with USB debugging enabled real device via USB
 6. Run this command on the terminal and learn your device name / UDID number -> adb devices
 7. Udpate your device / UDID on local/local-driver.js file
-8. Run this command on the root of the project to start test -> mocha testcases/search-hotel-text.js
+8. Download Tripadvisor APK file to your computer and update your app path on local/local-driver.js file
+9. Run this command on the root of the project to start test -> mocha testcases/search-hotel-text.js
 
 
 
