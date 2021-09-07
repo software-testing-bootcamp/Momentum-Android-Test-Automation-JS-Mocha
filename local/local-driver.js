@@ -1,14 +1,14 @@
 const wd = require('wd');
 const fs = require('fs');
 const capabilityHelper = require('./set-capabilities');
-const host = 'hub.mobven.com';
-const port = 6008;
-const udid = '9889db435748394e39';
-const app = 'http://farm.mobven.com:9096/sample-calculator-app.apk';
+const host = '127.0.0.1';
+const port = 4723;
+const udid = 'emulator-5554';
+const app = '/Users/ozgur.kaya/Downloads/SoftwareTestingBootcamp/1/Tripadvisor v43.4.apk';
 const deviceOs = 'android';
-const platformVersion = '8.0';
-const deviceName = '9889db435748394e39';
-const customCaps = '';
+const platformVersion = '10.0';
+const deviceName = 'emulator-5554';
+const customCaps = '{"appPackage":"com.tripadvisor.tripadvisor","appActivity":"com.tripadvisor.android.ui.launcher.LauncherActivity","fullReset":"true","noReset":"false","autoGrantPermissions":"true"}';
 
 var driver = wd.promiseChainRemote(host, port);
 var caps = capabilityHelper.setCapabilities(
