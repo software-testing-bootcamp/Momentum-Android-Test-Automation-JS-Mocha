@@ -1,5 +1,10 @@
 # Android Test Automation with JS Mocha
 
+**Youtube Webinar Video**
+
+https://www.youtube.com/watch?v=ziVxr698mlQ&t=1183s
+
+
 **Requirements:**
   
   Appium Desktop Installation -> https://github.com/appium/appium-desktop
