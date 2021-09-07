@@ -29,4 +29,24 @@ Appium Documentation: http://appium.io/docs/en/commands/element/find-element/
 
 Selenium Documentation: https://www.selenium.dev/documentation/ 
 
+********
+
+**How to use ?**
+
+1. Open Project folder with VS Code
+2. Terminal -> New Terminal on VS Code
+3. Run this command on the root of the project to download dependencies -> npm install
+4. Start Appium Server
+5. Start your Android Virtual Device (simulator) or connect your real device with USB debugging enabled real device via USB
+6. Run this command on the terminal and learn your device name / UDID number -> adb devices
+7. Udpate your device / UDID on local/local-driver.js file
+8. Run this command on the root of the project to start test -> mocha testcases/search-hotel-text.js
+
+
+
 ![image](https://user-images.githubusercontent.com/89974862/132399256-3b5c7f97-d42c-478d-92d8-66341dd03be5.png)
+
+![image](https://user-images.githubusercontent.com/89974862/132401255-c518c79e-227a-458e-a843-9ab531fd9771.png)
+
+![image](https://user-images.githubusercontent.com/89974862/132401314-cbd91422-9851-40b4-b350-4f669795c353.png)
+
